@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif, Helvetica, Arial;
+}
+blockquote p{
+    /* white-space: pre; */
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.jumbotron{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fa{
+    float:right;
+    font-size: 39px;
+    padding: 2px 5px;
+    line-height: 0.8;
+}
+.fa-twitter .fa-facebook{
+    padding: 6px;
+}
+.panel{
+    box-sizing: border-box;
+}
+.img-responsive{
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+#bilbo-main #frodo-main{
+    line-height: 1.6;
+}

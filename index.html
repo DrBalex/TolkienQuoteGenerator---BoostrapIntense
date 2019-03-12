@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Random Quote</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="CSS/style.css" rel="stylesheet">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TQG</a>
+                </div>
+                <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false">
+                                Authors
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Pages/bilbo.html">Bilbo Baggins</a></li>
+                                <li class="divider" role="separator"></li>
+                                <li><a href="Pages/frodo.html">Frodo Baggins</a></li>
+                                <li class="divider" role="separator"></li>
+                                <li><a href="Pages/gandalf.html">Gandalf</a></li>
+                                <li class="divider" role="separator"></li>
+                                <li><a href="Pages/saruman.html">Saruman the White</a></li>
+                                <li class="divider" role="separator"></li>
+                                <li><a href="Pages/radagast.html">Radagast the Brown</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron text-center">
+            <div class="container">
+                <h1>Tolkien Quote Generator</h1>
+                <p>A collection of quotes by several characters in J.R.R. Tolkien's books, given at various stages of their adventures.</p>
+            </div>
+        </div>
+        <div id="main" class="container">
+            <div class="panel panel-default">
+                <div id="quote-box" class="panel-body">
+                    <blockquote id="quote" class="blockquote-reverse">
+                        <p>Click the button below to receive a new random quote from our collection. Enjoy!</p>
+                        <footer>Quote by DrBalex</footer>
+                    </blockquote>
+                </div>
+                <div class="panel-footer">
+                    <button id="quote-btn" class="btn btn-primary" onclick="clickFunc()">ClickMe</button>
+                    <a href="https://twitter.com/intent/tweet" target="_blank" class="fa fa-twitter-square" aria-hidden="true"></a>
+                    <a href="https://facebook.com" target="_blank" class="fa fa-facebook-square" aria-hidden="true"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
